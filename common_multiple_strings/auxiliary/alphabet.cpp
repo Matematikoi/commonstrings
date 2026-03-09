@@ -1,5 +1,6 @@
 #include "alphabet.h"
 #include "utf8.h"
+#include <cstdint>
 #include <unordered_map>
 #include <vector>
 
