@@ -33,6 +33,7 @@ jobs:
         env:
           CIBW_BUILD: ${{ matrix.cibw_build }}
           CIBW_BEFORE_BUILD: "pip install cython numpy"
+          CIBW_BUILD_FRONTEND: "build[uv]"
 
       - uses: actions/upload-artifact@v4
         with:
