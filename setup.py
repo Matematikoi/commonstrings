@@ -14,6 +14,7 @@ ext_modules = [
         ],
         include_dirs=["./common_multiple_strings"],
         language="c++",
+        extra_compile_args=["-std=c++11"],
     ), 
 ]
 setup(
@@ -28,7 +29,7 @@ setup(
         "Source": "https://github.com/phamthivan2996/commonstrings"
     },
     ext_modules = ext_modules,
-    setup_requires=["cython"],
+    setup_requires=["cython<3"],
     cmdclass = { "build_ext": build_ext },
     package_data={"": ["*.h"]}
 )
