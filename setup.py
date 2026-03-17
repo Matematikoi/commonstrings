@@ -14,6 +14,7 @@ ext_modules = [
         ],
         include_dirs=["./common_multiple_strings"],
         language="c++",
+        extra_compile_args=["-std=c++11"],
     ), 
 ]
 setup(

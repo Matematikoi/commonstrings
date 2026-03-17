@@ -2,6 +2,7 @@
 // Copyright of coccoc-tokenizer
 
 #include "utf8.h"
+#include <iterator>
 #include <vector>
 std::vector< uint32_t > to_UTF(const std::string &text)
 {

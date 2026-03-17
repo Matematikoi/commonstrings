@@ -31,6 +31,8 @@ DEALINGS IN THE SOFTWARE.
 
 #include "utf8/checked.h"
 #include "utf8/unchecked.h"
+#include <cstdint>
+#include <string>
 #include <vector>
 std::vector< uint32_t > to_UTF(const std::string &text);
 

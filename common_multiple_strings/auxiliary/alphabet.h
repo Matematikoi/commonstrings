@@ -1,5 +1,6 @@
 #ifndef ALPHABET_H
 #define ALPHABET_H
+#include <cstdint>
 #include <unordered_map>
 class Alphabet
 {
