@@ -27,6 +27,6 @@ Repository = "https://github.com/phamthivan2996/commonstrings.git"
 [build-system]
 requires = [
     "setuptools",
-    "cython<3"
+    "cython"
 ]
 build-backend = "setuptools.build_meta"

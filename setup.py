@@ -29,7 +29,7 @@ setup(
         "Source": "https://github.com/phamthivan2996/commonstrings"
     },
     ext_modules = ext_modules,
-    setup_requires=["cython<3"],
+    setup_requires=["cython"],
     cmdclass = { "build_ext": build_ext },
     package_data={"": ["*.h"]}
 )
